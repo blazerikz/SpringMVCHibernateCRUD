@@ -1,3 +1,4 @@
+
 version: 0.1
 
 phases:
@@ -9,4 +10,5 @@ phases:
 artifacts:
   files:
     - appspec.yml
+    - target/SpringMVCHibernateCRUD.war
     - scripts/*
