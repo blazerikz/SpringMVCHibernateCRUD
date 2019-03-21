@@ -2,7 +2,7 @@
 
 set -e
 
-mkdir -p /var/codedeploy/tomcat-sample
+sudo mkdir -p /var/codedeploy/tomcat-sample
 
 cat <<EOF >/var/codedeploy/tomcat-sample/env.properties
 APPLICATION_NAME=$APPLICATION_NAME
