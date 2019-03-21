@@ -2,4 +2,4 @@
 
 set -e
 
-sudo service tomcat stop
+systemctl stop tomcat8
