@@ -21,5 +21,5 @@ fi
 # Copy the WAR file to the webapps directory
 cp $WAR_STAGED_LOCATION $CATALINA_HOME/webapps/$CONTEXT_PATH.war
 
-service tomcat start
+sudo service tomcat start
 
