@@ -2,4 +2,4 @@
 
 set -e
 
-sudo service stop tomcat
+sudo service tomcat stop
