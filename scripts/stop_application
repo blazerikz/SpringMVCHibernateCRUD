@@ -2,4 +2,3 @@
 
 set -e
 
-sudo systemctl stop tomcat
